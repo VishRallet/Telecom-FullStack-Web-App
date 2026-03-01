@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: linear-gradient(135deg, #00FFFF, #FF00FF); /* cyan-magenta gradient */
+  color: #fff;
+  position: relative;
+}
+
+/* ----------------- Register Page ----------------- */
+.register-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #00FFFF, #FF00FF); /* cyan-magenta */
+  padding: 2rem;
+}
+
+.register-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00FFFF; /* cyan title */
+  margin-bottom: 1rem;
+}
+
+/* ----------------- Admin Dashboard ----------------- */
+.admin-dashboard {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #00FFFF, #FF00FF); /* cyan-magenta */
+  padding: 2rem;
+  color: #fff;
+  position: relative;
+}
+
+.dashboard-content {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 2rem;
+  color: #213547;
+}
+
+/* ----------------- Navigation Tabs ----------------- */
+.nav-tabs .nav-link.active {
+  background-color: #FF00FF; /* active tab magenta */
+  color: #fff;
+}
+
+/* ----------------- Logout Button Top-Left ----------------- */
+.logout-top-left {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 50;
+  background-color: #00FFFF; /* cyan button */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.logout-top-left:hover {
+  background-color: #00e6e6; /* slightly darker cyan on hover */
+}

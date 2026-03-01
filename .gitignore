@@ -1,0 +1,19 @@
+# React / Node
+node_modules/
+dist/
+build/
+.env
+
+# Java / Spring Boot
+target/
+*.class
+.mvn/
+.settings/
+.classpath
+.project
+*.jar
+*.war
+
+# OS Generated
+.DS_Store
+Thumbs.db
